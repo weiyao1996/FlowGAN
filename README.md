@@ -26,4 +26,4 @@ This repository is the official implementation of Flow-based GAN for 3D Point Cl
 ## Acknowledgement
 We build our code based on the following repositories, we thank their authors and recommand citing their works as well if you find this code is useful for your work. 
 
-[[DPF-Nets](https://github.com/Regenerator/dpf-nets);[MixNFs](https://github.com/janisgp/go_with_the_flows)]
+[[PointFlow](https://github.com/stevenygd/PointFlow);[DPF-Nets](https://github.com/Regenerator/dpf-nets);[MixNFs](https://github.com/janisgp/go_with_the_flows)]
