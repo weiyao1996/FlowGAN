@@ -1,6 +1,6 @@
 # FlowGAN
 This repository is the official implementation of Flow-based GAN for 3D Point Cloud Generation from a Single Image (BMVC 2022)
-[[Project](https://bmvc2022.mpi-inf.mpg.de/569/)]
+[[Project page](https://bmvc2022.mpi-inf.mpg.de/569/)]
 ![image](https://github.com/weiyao1996/weiyao1996.github.io/blob/master/img/iccvw2023.png)  
 
 ## Dependencies  
