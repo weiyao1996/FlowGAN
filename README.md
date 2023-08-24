@@ -1,4 +1,5 @@
 # FlowGAN
+
 This repository is the official implementation of Flow-based GAN for 3D Point Cloud Generation from a Single Image (BMVC 2022)
 
 [[Project page](https://bmvc2022.mpi-inf.mpg.de/569/)]
@@ -21,11 +22,7 @@ Generating a 3D point cloud from a single 2D image is of great importance for 3D
 [[ShapeNet]()];[[PASCAL3D+]()]
   
 ## Usage  
-1) Visualization
-
-We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
-
-## References
+Visualization: We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
 
 ## Acknowledgement
 We build our code based on the following codebases, we thank their authors and recommand citing their works as well if you find this code is useful for your work. 
