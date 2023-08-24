@@ -22,7 +22,7 @@ Generating a 3D point cloud from a single 2D image is of great importance for 3D
   
 ## Usage  
 1) Visualization
-[Rendering](https://github.com/mitsuba-renderer/mitsuba2)
+We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
 
 ## References
 
