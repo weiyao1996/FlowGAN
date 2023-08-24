@@ -28,6 +28,8 @@ Generating a 3D point cloud from a single 2D image is of great importance for 3D
 ## References
 
 ## Acknowledgement
-We build our code based on the following repositories, we thank their authors and recommand citing their works as well if you find this code is useful for your work. 
+We build our code based on the following codebases, we thank their authors and recommand citing their works as well if you find this code is useful for your work. 
 
-[[PointFlow](https://github.com/stevenygd/PointFlow);[DPF-Nets](https://github.com/Regenerator/dpf-nets);[MixNFs](https://github.com/janisgp/go_with_the_flows)]
+[PointFlow](https://github.com/stevenygd/PointFlow) [Yang et al., ICCV'19]
+[DPF-Nets](https://github.com/Regenerator/dpf-nets) [Klokov et al., ECCV'20]
+[MixNFs](https://github.com/janisgp/go_with_the_flows) [Postels et al., 3DV'21]
