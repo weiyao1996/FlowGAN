@@ -9,7 +9,8 @@ Generating a 3D point cloud from a single 2D image is of great importance for 3D
 
 ![image](https://github.com/weiyao1996/weiyao1996.github.io/blob/master/img/bmvc2022.png)  
 
-## Dependencies  
+## Dependencies 
+Environment: Ubuntu 20.04.4 LTS, CUDA 11.3.
 · Pytorch == 1.1.0  
 · Python == 3.6.7  
 · Numpy == 1.16.3  
