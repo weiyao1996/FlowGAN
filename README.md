@@ -18,6 +18,10 @@ Generating a 3D point cloud from a single 2D image is of great importance for 3D
 · Cython == 0.29.13  
 
 ## Datasets
+
+### Visualization
+
+[Rendering](https://github.com/mitsuba-renderer/mitsuba2)
 [[ShapeNet]()];[[PASCAL3D+]()]
   
 ## Usage  
