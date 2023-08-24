@@ -20,7 +20,9 @@ Environment: Ubuntu 20.04.4 LTS, CUDA 11.3.
 · Cython == 0.29.13  
 
 ## Datasets
-[[ShapeNet]()];[[PASCAL3D+]()]
+· ShapeNetCore.v1
+
+· PASCAL3D+
   
 ## Usage  
 Visualization: We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
