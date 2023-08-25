@@ -50,7 +50,7 @@ url       = {https://bmvc2022.mpi-inf.mpg.de/0569.pdf}
 }
 ```
 
-## Acknowledgement
+## Acknowledgements
 We build our code based on the following codebases, many thanks to the contributors.
 
 [PointFlow](https://github.com/stevenygd/PointFlow) [Yang et al., ICCV'19]
