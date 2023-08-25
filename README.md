@@ -12,6 +12,21 @@ The official implementation of _Flow-based GAN for 3D Point Cloud Generation fro
 
 First of all, download ShapeNet dataset from [ShapeNetCore.v1](https://shapenet.org/) and [3D-R2N2](http://3d-r2n2.stanford.edu/). Please refer to [DPF-Nets](https://github.com/Regenerator/dpf-nets) for pre-processing scripts, because the data should be stored in hdf5 format. Here, we provide *Airplane* category via [GoogleDrive](https://drive.google.com/drive/folders/1hkWJykin2kJWZKdakgtg2N2s9MDIRT1T?usp=sharing) | [百度网盘](https://pan.baidu.com/s/14M2KBOg-n_AbeOlNmZ3YHw) (提取码2uk2).
 
+### Train
+
+All configurations can be found in `configs/`.
+
+```
+python train_svr.py ./configs/airplane.yaml svr_model_02691156 20 0.000256
+python train_svr.py ./configs/airplane.yaml svr_model_02691156 30 0.000064 --resume
+```
+
+### Evaluation
+
+```
+python evaluate_ae.py ./configs/airplane.yaml svr_model_02691156 test 2500 2500 reconstruction --weights_type learned_weights --reps 1 --f1_threshold_lst 0.0001 --cd --f1 --emd --unit_scale_evaluation
+```
+
 ### Visualization
 We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
 
@@ -30,7 +45,7 @@ url       = {https://bmvc2022.mpi-inf.mpg.de/0569.pdf}
 ```
 
 ## Acknowledgement
-We build our code based on the following codebases, we are very grateful to the authors.
+We build our code based on the following codebases, many thanks to the contributors.
 
 [PointFlow](https://github.com/stevenygd/PointFlow) [Yang et al., ICCV'19]
 [DPF-Nets](https://github.com/Regenerator/dpf-nets) [Klokov et al., ECCV'20]
