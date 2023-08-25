@@ -33,6 +33,18 @@ Environment: Ubuntu 20.04.4 LTS, CUDA 11.3.
 ### Visualization
 We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
 
+##  Citation
+```
+@inproceedings{Wei_2022_BMVC,
+author    = {Yao Wei and George Vosselman and Michael Ying Yang},
+title     = {Flow-based GAN for 3D Point Cloud Generation from a Single Image},
+booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+publisher = {{BMVA} Press},
+year      = {2022},
+url       = {https://bmvc2022.mpi-inf.mpg.de/0569.pdf}
+}
+```
+
 ## Acknowledgement
 We build our code based on the following codebases, we thank their authors and recommand citing their works as well if you find this code is useful for your work. 
 
