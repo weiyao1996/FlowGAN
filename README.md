@@ -2,7 +2,7 @@
 
 The official implementation of _Flow-based GAN for 3D Point Cloud Generation from a Single Image_ (BMVC 2022)
 
-[[Project page](https://bmvc2022.mpi-inf.mpg.de/569/)]
+### [Project page](https://bmvc2022.mpi-inf.mpg.de/569/)
 
 ![image](https://github.com/weiyao1996/weiyao1996.github.io/blob/master/img/bmvc2022.png)  
   
