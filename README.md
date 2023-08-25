@@ -14,7 +14,7 @@ First of all, download ShapeNet dataset from [ShapeNetCore.v1](https://shapenet.
 
 ### Train
 
-All configurations can be found in `configs/`.
+All configurations can be found in `configs/`. The trained models are saved under `logs/models/`.
 
 ```
 python train_svr.py ./configs/airplane.yaml svr_model_02691156 20 0.000256
@@ -22,6 +22,8 @@ python train_svr.py ./configs/airplane.yaml svr_model_02691156 30 0.000064 --res
 ```
 
 ### Evaluation
+
+The generated point clouds will be stored under `logs/` in .h5 format.
 
 ```
 python evaluate_ae.py ./configs/airplane.yaml svr_model_02691156 test 2500 2500 reconstruction --weights_type learned_weights --reps 1 --f1_threshold_lst 0.0001 --cd --f1 --emd --unit_scale_evaluation
