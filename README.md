@@ -16,6 +16,8 @@ _ShapeNetCore.v1_ and _PASCAL3D+_ can be downloaded via the following link. If y
 We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
 
 ##  Citation
+
+Please cite our work if you find this code is useful for your work.
 ```
 @inproceedings{Wei_2022_BMVC,
 author    = {Yao Wei and George Vosselman and Michael Ying Yang},
@@ -28,7 +30,7 @@ url       = {https://bmvc2022.mpi-inf.mpg.de/0569.pdf}
 ```
 
 ## Acknowledgement
-We build our code based on the following codebases, we thank their authors and recommand citing their works as well if you find this code is useful for your work. 
+We build our code based on the following codebases, we are very grateful to the authors.
 
 [PointFlow](https://github.com/stevenygd/PointFlow) [Yang et al., ICCV'19]
 [DPF-Nets](https://github.com/Regenerator/dpf-nets) [Klokov et al., ECCV'20]
