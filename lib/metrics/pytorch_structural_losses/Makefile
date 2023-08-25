@@ -6,7 +6,6 @@
 
 CXX := g++
 PYTHON := /usr/bin/python3
-# NVCC := /scratch/horus/vsydorov/_stable/built/libs/cuda10.0.130/extract/bin/nvcc
 NVCC := /usr/local/cuda-11.3/bin/nvcc
 
 # PYTHON Header path
