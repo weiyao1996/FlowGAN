@@ -26,7 +26,7 @@ python train.py ./configs/airplane.yaml svr_model_02691156 30 0.000064 --resume
 The generated point clouds will be stored under `logs/` in .h5 format, e.g., `svr_model_02691156_test_2500_2500_clouds_reconstruction.h5`.
 
 ```
-python evaluate.py ./configs/airplane.yaml svr_model_02691156 test 2500 2500 reconstruction --weights_type learned_weights --reps 1 --f1_threshold_lst 0.0001 --cd --f1 --emd --unit_scale_evaluation
+python evaluate.py ./logs/ svr_model_02691156 test 2500 2500 reconstruction --weights_type learned_weights --reps 1 --f1_threshold_lst 0.0001 --cd --f1 --emd --unit_scale_evaluation
 ```
 
 ### Visualization
