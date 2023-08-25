@@ -28,7 +28,7 @@ python evaluate_ae.py ./configs/airplane.yaml svr_model_02691156 test 2500 2500 
 ```
 
 ### Visualization
-We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds. Please refer to the original repository.
+We adopt [Mitsuba renderer](https://github.com/mitsuba-renderer/mitsuba2) for the visualization of 3D point clouds.
 
 ##  Citation
 
