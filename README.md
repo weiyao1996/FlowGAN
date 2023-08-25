@@ -12,7 +12,7 @@ First of all, download ShapeNet dataset from [ShapeNetCore.v1](https://shapenet.
 
 ### Train
 
-All configurations can be found in `configs/`. By default, the trained models are saved under `logs/models/`.
+All configurations can be found in `configs/`. By default, the trained models are saved under `logs/models/`. Note that modify `lib/metrics/pytorch_structural_losses/Makefile` to suit your environment.
 
 ```
 python train.py ./configs/airplane.yaml svr_model_02691156 20 0.000256
