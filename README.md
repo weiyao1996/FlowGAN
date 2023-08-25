@@ -8,7 +8,7 @@ The official implementation of _Flow-based GAN for 3D Point Cloud Generation fro
 
 ### Data Preparation
 
-First of all, download ShapeNet dataset from [ShapeNetCore.v1](https://shapenet.org/) and [3D-R2N2](http://3d-r2n2.stanford.edu/). Please refer to [DPF-Nets](https://github.com/Regenerator/dpf-nets) for pre-processing scripts, because the data should be stored in hdf5 format. Here, we provide an example of *Airplane* category via [GoogleDrive](https://drive.google.com/drive/folders/1hkWJykin2kJWZKdakgtg2N2s9MDIRT1T?usp=sharing) | [百度网盘](https://pan.baidu.com/s/14M2KBOg-n_AbeOlNmZ3YHw) (提取码2uk2). Please contact Yao for other categories and pre-trained models if needed.
+First of all, download ShapeNet dataset from [ShapeNetCore.v1](https://shapenet.org/) and [3D-R2N2](http://3d-r2n2.stanford.edu/). Please refer to [DPF-Nets](https://github.com/Regenerator/dpf-nets) for pre-processing scripts, because the data should be stored in hdf5 format. Here, we provide an example of *Airplane* category via [GoogleDrive](https://drive.google.com/drive/folders/1hkWJykin2kJWZKdakgtg2N2s9MDIRT1T?usp=sharing) | [百度网盘](https://pan.baidu.com/s/14M2KBOg-n_AbeOlNmZ3YHw) (提取码2uk2). Let me know if you need other categories and pre-trained models.
 
 ### Train
 
