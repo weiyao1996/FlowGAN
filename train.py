@@ -90,5 +90,5 @@ else:
     print('Model {} loaded.'.format(path2checkpoint))
 
 for epoch in range(cur_epoch, config['n_epochs']):
-    train(train_iterator, model, model_d1, model_d2, criterion, gan_criterion, optimizer, optimizer_d1, optimizer_d2, scheduler, epoch, cur_iter, **config)
+    train(train_iterator, model, model_d1, criterion, gan_criterion, optimizer, optimizer_d1, scheduler, epoch, cur_iter, **config)
     cur_iter = 0
