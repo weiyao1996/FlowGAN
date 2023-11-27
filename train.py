@@ -60,7 +60,7 @@ print('Iterator init: done.')
 
 model = Local_Cond_RNVP_MC_Global_RNVP_VAE_IC(**config).cuda()
 model_d1 = Discriminator1(**config).cuda()
-model_d2 = Discriminator2(**config).cuda()
+# model_d2 = Discriminator2(**config).cuda()
 print('Model init: done.')
 print('Total number of parameters: {}'.format(cnt_params(model.parameters())))
 
@@ -70,8 +70,8 @@ optimizer = Adam(model.parameters(), lr=config['max_lr'], weight_decay=config['w
                  betas=(config['beta1'], config['max_beta2']), amsgrad=True)
 optimizer_d1 = Adam(model_d1.parameters(), lr=config['max_lr'], weight_decay=config['wd'],
                  betas=(config['beta1'], config['max_beta2']), amsgrad=True)
-optimizer_d2 = Adam(model_d2.parameters(), lr=config['max_lr'], weight_decay=config['wd'],
-                 betas=(config['beta1'], config['max_beta2']), amsgrad=True)
+# optimizer_d2 = Adam(model_d2.parameters(), lr=config['max_lr'], weight_decay=config['wd'],
+#                  betas=(config['beta1'], config['max_beta2']), amsgrad=True)
 scheduler = LRUpdater(len(train_iterator), **config)
 print('Optimizer init: done.')
 
